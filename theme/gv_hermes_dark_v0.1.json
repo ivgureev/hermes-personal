@@ -1,0 +1,42 @@
+{
+  "$schema_note": "Экспериментальное расширение GUREEV VECTOR v3.1.1. Не является эталоном и требует утверждения владельцем бренда.",
+  "edition": "dark-concept-v0.1",
+  "base_standard": "GUREEV VECTOR v3.1.1",
+  "source_images": ["IMG_0870.jpeg", "IMG_0798.jpeg", "IMG_0833.jpeg"],
+  "color": {
+    "bg.canvas": "#050403",
+    "bg.sidebar": "#090705",
+    "surface.base": "#0D0B09",
+    "surface.raised": "#15110D",
+    "surface.active": "#21180E",
+    "border.subtle": "#332719",
+    "border.strong": "#80633C",
+    "text.primary": "#F7F2E8",
+    "text.secondary": "#C8BDAA",
+    "text.muted": "#9D907D",
+    "accent.gold": "#F8C66D",
+    "accent.gold.strong": "#FDE3A4",
+    "accent.gold.muted": "#CD9652",
+    "accent.gold.deep": "#9A6B37",
+    "accent.on_gold": "#16100A",
+    "brand.graphite": "#26343D",
+    "brand.teal": "#08B8CC",
+    "brand.teal.ui": "#079CAD",
+    "status.success": "#65C18C",
+    "status.warning": "#F8C66D",
+    "status.error": "#F08A82",
+    "status.info": "#75C7D1"
+  },
+  "font": {
+    "family.text": "Inter",
+    "family.mono": "JetBrains Mono",
+    "weight.heading": 700,
+    "weight.body": 400,
+    "numeric": "tabular-nums"
+  },
+  "effects": {
+    "glow.subtle": "0 0 20px rgba(248, 198, 109, 0.12)",
+    "glow.focus": "0 0 0 3px rgba(248, 198, 109, 0.18)",
+    "shadow.panel": "0 16px 44px rgba(0, 0, 0, 0.32)"
+  }
+}

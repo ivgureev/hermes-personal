@@ -1,0 +1,122 @@
+{
+  "$schema_note": "Единственный источник цветов интерфейса (правило 19). Изменяется только новой редакцией.",
+  "edition": "v3.1.1",
+  "edition_date": "24.09.2026",
+  "color": {
+    "brand.graphite": "#26343D",
+    "brand.teal": "#08B8CC",
+    "teal.ui": "#079CAD",
+    "teal.text": "#057C8A",
+    "teal.strong": "#045C66",
+    "text.secondary": "#5E6B75",
+    "border.input": "#7D8B96",
+    "border.decor": "#D7DEE3",
+    "bg.base": "#FFFFFF",
+    "bg.subtle": "#F2F5F7"
+  },
+  "font": {
+    "family.text": "Inter",
+    "family.mono": "JetBrains Mono",
+    "weight.heading": 700,
+    "weight.body": 400,
+    "numeric": "tabular-nums"
+  },
+  "contrast": {
+    "thresholds": {
+      "text": 4.5,
+      "ui": 3.0
+    },
+    "pairs": [
+      {
+        "fg": "brand.graphite",
+        "bg": "bg.base",
+        "role": "text",
+        "context": "Основной текст на белом"
+      },
+      {
+        "fg": "brand.graphite",
+        "bg": "bg.subtle",
+        "role": "text",
+        "context": "Основной текст на светлом фоне"
+      },
+      {
+        "fg": "brand.graphite",
+        "bg": "brand.teal",
+        "role": "text",
+        "context": "Версия знака графитом на бирюзовой плашке"
+      },
+      {
+        "fg": "teal.text",
+        "bg": "bg.base",
+        "role": "text",
+        "context": "Ссылки и текст бирюзой на белом"
+      },
+      {
+        "fg": "teal.text",
+        "bg": "bg.subtle",
+        "role": "text",
+        "context": "Ссылки на светлом фоне"
+      },
+      {
+        "fg": "bg.base",
+        "bg": "teal.text",
+        "role": "text",
+        "context": "Белый текст на кнопке teal.text"
+      },
+      {
+        "fg": "bg.base",
+        "bg": "teal.strong",
+        "role": "text",
+        "context": "Белый текст на кнопке при наведении/нажатии"
+      },
+      {
+        "fg": "teal.strong",
+        "bg": "bg.base",
+        "role": "text",
+        "context": "Акцентный текст на белом"
+      },
+      {
+        "fg": "text.secondary",
+        "bg": "bg.base",
+        "role": "text",
+        "context": "Второстепенный текст на белом"
+      },
+      {
+        "fg": "text.secondary",
+        "bg": "bg.subtle",
+        "role": "text",
+        "context": "Второстепенный текст на светлом фоне"
+      },
+      {
+        "fg": "teal.ui",
+        "bg": "bg.base",
+        "role": "ui",
+        "context": "Индикаторы и крупная графика на белом"
+      },
+      {
+        "fg": "teal.ui",
+        "bg": "bg.subtle",
+        "role": "ui",
+        "context": "Индикаторы на светлом фоне"
+      },
+      {
+        "fg": "border.input",
+        "bg": "bg.base",
+        "role": "ui",
+        "context": "Граница поля ввода на белом"
+      },
+      {
+        "fg": "border.input",
+        "bg": "bg.subtle",
+        "role": "ui",
+        "context": "Граница поля ввода на светлом фоне"
+      }
+    ]
+  },
+  "roles": {
+    "brand.teal": "только знак и декоративные элементы (правило 20)",
+    "teal.text": "ссылки и кнопки с белым текстом",
+    "teal.strong": "наведение и нажатие",
+    "teal.ui": "крупные графические элементы и индикаторы"
+  }
+}

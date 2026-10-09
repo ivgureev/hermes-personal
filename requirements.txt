@@ -1,0 +1,6 @@
+streamlit>=1.42,<2
+pandas>=2.2,<3
+openai>=1.52,<2
+python-dotenv>=1.0,<2
+bcrypt>=4.2,<5
+pytest>=8.3,<9

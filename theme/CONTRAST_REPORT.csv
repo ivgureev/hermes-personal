@@ -1,0 +1,8 @@
+﻿foreground,background,context,ratio,threshold,status
+text.primary,bg.canvas,body,18.36,4.5,PASS
+text.primary,surface.base,body,17.61,4.5,PASS
+text.secondary,surface.base,body,10.59,4.5,PASS
+text.muted,bg.canvas,metadata,6.55,3.0,PASS
+accent.on_gold,accent.gold,button,11.94,4.5,PASS
+accent.gold,bg.canvas,ui,12.96,3.0,PASS
+border.strong,bg.canvas,ui,3.68,3.0,PASS
